@@ -13,12 +13,6 @@ a:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-.card{
-border-radius: 10px;
-	background: linear-gradient(180deg, #6DC4FF 0%, #0B40FF 52.08%, #3300FF 100%);
-}
-
 
 	
 
