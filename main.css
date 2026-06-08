@@ -1,58 +1,34 @@
-@charset "UTF-8";
-/* CSS Document */
-*{
-	box-sizing: border-box;
-}
-body{
-	background: url("sage background2.jpg")
-}
-#container{
-width: 800px;
-	margin: 0 auto;
-	background-color:darkslategrey
-}
-.left{
-	width:380px;
-	height: 150px;
-	background-color: rgba(219,209,200,.5);
-	border-radius: 25px;
-	float:left;
-	margin: 0px 15px 0px 15px;
-	padding: 30px 30px 30px 30px;
-	border: solid rgba(49,36,37,1.00);
-}
-
-.right{
-	width:380px;
-	height: 150px;
-	background-color: rgba(219,209,200,.5);
-	border-radius: 25px;
-	float:left;
-	padding: 30px 30px 30px 30px;
-	border: solid rgba(49,36,37,1.00);
-	visibility: hidden
+<!doctype html>
+<html>
+<head>
+<title>card</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+	<body>
+		<div class="center">
+			<div class="card">
+				<img src=" plant png.png">
+				<div class="card-title">
+					<h3>Plant</h3>
+			         </div>
+		           <div class="card-details">
+					   <button>buy</button>
+					   <button>Cart</button>
+					   <div class="details">
+						   <h1>Plants</h1>
+						   <p>Shop plants online for newest drops available</p>
+						   <h2>price <span>85k</span></h2>
+					   </div>
+				   </div>
+			</div>
+			
+					   
 		
-footer{
-	background-color:darkslategrey
-}
-header > h1{text-align: center;color: antiquewhite}
-#container article{
-	background-color:linen
-}
- img src="download.jpeg"
-}
-.right a:link{
-	color:aliceblue;
-	font-size: 26px;
-	text-decoration: none;
-}
-.right a:hover{
-	font-size: 1.2em
-}
- .limelight-regular {
-  font-family: "Limelight", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+			
 
+
+
+
+		
+	</body>
 
