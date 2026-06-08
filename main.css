@@ -1,34 +1,18 @@
-<!doctype html>
-<html>
-<head>
-<title>card</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-	<body>
-		<div class="center">
-			<div class="card">
-				<img src=" plant png.png">
-				<div class="card-title">
-					<h3>Plant</h3>
-			         </div>
-		           <div class="card-details">
-					   <button>buy</button>
-					   <button>Cart</button>
-					   <div class="details">
-						   <h1>Plants</h1>
-						   <p>Shop plants online for newest drops available</p>
-						   <h2>price <span>85k</span></h2>
-					   </div>
-				   </div>
-			</div>
-			
-					   
-		
-			
-
-
-
-
-		
-	</body>
+body{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background: #E0E0E0;
+}
+a:hover {
+	text-decoration: none;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
 
